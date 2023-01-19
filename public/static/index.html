@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <title>Rede de Conteineres</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <section class="p-absolute">
+        <header>
+            <p>PROJETO - CONEXÃO DE DOCKER CONTAINERS</p>
+        </header>
+
+        <section class="form">
+            <h2>FORMULÁRIO DE CADASTRO DE USUÁRIOS</h2>
+            <p>Para inseir usuários na lista, preencha os dados abaixo.</p>
+            <hr>
+            <form action="">
+                <input id="name" type="text" placeholder="Nome completo">
+                <input id="email" type="email" placeholder="E-mail">
+                <button id="register" type="button">Cadastrar</button>
+            </form>
+        </section>
+    </section>
+
+    <section class="table">
+        <h2>LISTA DE USUÁRIOS CADASTRADOS</h2>
+        <p>Abaixo, você pode ver os usuários registrados, podendo editá-los ou removê-los.</p>
+        <hr>
+        <table id="table"></table>
+    </section>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
