@@ -62,10 +62,10 @@ ENTRYPOINT npm start
 
 ### Criação da imagem do container da aplicação postgres
 ```
-docker build -t docke-container-connection . 
+docker build -t docker-container-connection:1.0 . 
 ```
 
 ### Criação do container da aplicação
 ```
-docker container run --name app-node -p 8000:3000 --network rededb docke-container-connection
+docker container run --name app-docker-container-connection -p 8000:3000 --network rededb docker-container-connection:1.0
 ```
