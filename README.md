@@ -24,6 +24,7 @@ psql -U postgres
 
 ```
 CREATE DATABASE meubanco
+;
 ```
 
 ```
@@ -46,7 +47,7 @@ CREATE TABLE cadastro (
 DBUSER=postgres
 DBPASSWORD=postgres
 DBHOST=meu-banco
-DBPORT=5432
+DBPORT=5433
 DB=meubanco
 ```
 
