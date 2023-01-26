@@ -1,5 +1,6 @@
 # docker-container-connection
-Aplicação Nodejs rodando em container do Docker e conexão com banco de dados postgres rodando em um outro container do Docker
+Aplicação Nodejs rodando em container do Docker e conexão com banco de dados postgres rodando em um outro container do Docker.
+
 ## Comandos
 
 ### Criação da rede de conexão dos containers
@@ -50,9 +51,4 @@ ENTRYPOINT npm start
 ### Criação da imagem do container da aplicação postgres
 ```
 docker build -t app . 
-```
-
-### Criação do container da aplicação
-```
-docker container run --name app-node -p 8000:3000 --network rededb app
 ```
