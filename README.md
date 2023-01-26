@@ -52,3 +52,8 @@ ENTRYPOINT npm start
 ```
 docker build -t app . 
 ```
+
+### Criação do container da aplicação
+```
+docker container run --name app-node -p 8000:3000 --network rededb app
+```
