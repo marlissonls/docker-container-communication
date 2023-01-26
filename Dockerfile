@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /docker-connection
+WORKDIR /docker-container-connection
 
 COPY . .
 
