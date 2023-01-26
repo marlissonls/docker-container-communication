@@ -1,5 +1,5 @@
 # docker-container-connection
-Aplicação Nodejs rodando em container do Docker e conexão com banco de dados postgres rodando em um outro container do Docker.
+Comunicação entre containers Docker de uma aplicação containerizada Nodejs com banco de dados postgres containerizado.
 
 ## Comandos
 
