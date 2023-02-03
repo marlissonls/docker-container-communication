@@ -1,5 +1,7 @@
 # docker-container-connection
-Comunicação entre containers Docker de uma aplicação containerizada Nodejs com banco de dados postgres containerizado.
+A finalidade deste projeto é realizar uma comunicação entre dois containers Docker.
+- O primeiro container contém uma aplicação Nodejs.
+- O segundo container contém o banco de dados Postgresql.
 
 ## Comandos
 
